@@ -1,4 +1,4 @@
 # BinarayTree
 
-![github license](https://img.shields.io/github/license/:user/:repo)
+![License](https://img.shields.io/badge/license-Apache-yellow)
 ![Language](https://img.shields.io/badge/language-c-brightgreen)
