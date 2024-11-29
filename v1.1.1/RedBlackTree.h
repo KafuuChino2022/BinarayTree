@@ -4,12 +4,11 @@
 *
 *  @file    RedBlackTree.h
 *  @brief   红黑树操作库, 前置库为二叉树操作库, 包含了一些红黑树的常用操作
-*           1.功能: 新增 前中后序遍历
-*           2.错误处理: 修改 创建结点时错误返回逻辑:显式返回FAILED状态码以便调用者自行处理
+*           1.功能: 新增 层序遍历
 *
 *  @author  KafuuChino
 *  @date    2024-11-23
-*  @version V1.1.0 20241123
+*  @version V1.1.1 20241123
 ***************************************************************************************
 */
 #ifndef REDBLACKTREE_H
@@ -59,6 +58,8 @@ Status preOrderTraverseRB(RBTree root);
 Status inOrderTraverseRB(RBTree root);
 
 Status postOrderTraverseRB(RBTree root);
+
+Status levelOrderTraverseRB(RBTree root);
 
 Status destroyRBTree(RBTree root);
 
